@@ -10,46 +10,107 @@
         body { background-color: #0f051a; color: #ffffff; font-family: 'Inter', sans-serif; }
         .neon-border { border: 1px solid #39ff14; box-shadow: 0 0 15px rgba(57, 255, 20, 0.2); }
         .purple-card { background: rgba(128, 0, 128, 0.1); border: 1px solid rgba(128, 0, 128, 0.3); padding: 20px; border-radius: 15px; }
+        .btn-neon { background: #39ff14; color: #0f051a; font-weight: 900; transition: 0.3s; }
+        .btn-neon:active { transform: scale(0.95); }
     </style>
 </head>
 <body class="p-4 md:p-8">
     <div class="max-w-3xl mx-auto">
-        <header class="text-center mb-12">
-            <h1 class="text-3xl font-black uppercase italic text-[#39ff14]">Acesso Liberado</h1>
-            <p class="text-gray-400 mt-2">Treinamento Completo: Venda pelo Celular 2026</p>
+        <header class="text-center mb-10">
+            <span class="text-[#39ff14] text-[10px] font-bold uppercase tracking-[0.3em]">Vendas Mobile Academy</span>
+            <h1 class="text-3xl font-black uppercase italic text-[#39ff14] mt-2">Acesso Liberado</h1>
+            <p class="text-gray-400 mt-2 text-sm">Treinamento Completo: Venda pelo Celular 2026</p>
         </header>
 
+        <!-- Botão de Download da Pasta Completa -->
+        <div class="mb-8">
+            <a href="https://drive.google.com/drive/folders/1f_jDU26FzddAlQuLzxlV-_Qg4hY3Wy10" target="_blank" class="btn-neon w-full block text-center py-4 rounded-xl shadow-lg shadow-green-500/20 uppercase tracking-tighter">
+                📥 Baixar Todas as Aulas (Google Drive)
+            </a>
+        </div>
+
         <div class="purple-card mb-8 neon-border">
-            <h2 class="text-xl font-bold mb-4 text-[#39ff14]">🎙️ Os 15 Episódios da Temporada</h2>
-            <p class="text-sm text-gray-400 mb-6">Ouça as aulas estratégicas com Marcos e Ana:</p>
+            <h2 class="text-xl font-bold mb-6 text-[#39ff14] border-b border-purple-900/50 pb-2">🎙️ Cronograma de Aulas</h2>
             
-            <div class="space-y-4">
-                <!-- Lista de Episódios -->
-                <div class="flex justify-between items-center p-3 bg-white/5 rounded-lg">
-                    <span class="text-xs">EP01 - Método HPCC TA</span>
-                    <a href="LINK_DO_AUDIO_01" class="text-[#39ff14] font-bold text-xs">OUVIR AULA</a>
+            <div class="grid gap-3">
+                <!-- Lista de 15 Episódios -->
+                <div class="flex justify-between items-center p-3 bg-white/5 rounded-lg border border-white/10">
+                    <span class="text-[11px] font-bold">EP01 - Método HPCC TA</span>
+                    <span class="text-[10px] text-gray-500 italic">Disponível</span>
                 </div>
-                <div class="flex justify-between items-center p-3 bg-white/5 rounded-lg">
-                    <span class="text-xs">EP02 - TikTok Shop do Zero</span>
-                    <a href="LINK_DO_AUDIO_02" class="text-[#39ff14] font-bold text-xs">OUVIR AULA</a>
+                <div class="flex justify-between items-center p-3 bg-white/5 rounded-lg border border-white/10">
+                    <span class="text-[11px] font-bold">EP02 - TikTok Shop do Zero</span>
+                    <span class="text-[10px] text-gray-500 italic">Disponível</span>
                 </div>
-                <div class="flex justify-between items-center p-3 bg-white/5 rounded-lg">
-                    <span class="text-xs">EP03 - Dropshipping 3.0</span>
-                    <a href="LINK_DO_AUDIO_03" class="text-[#39ff14] font-bold text-xs">OUVIR AULA</a>
+                <div class="flex justify-between items-center p-3 bg-white/5 rounded-lg border border-white/10">
+                    <span class="text-[11px] font-bold">EP03 - Dropshipping 3.0</span>
+                    <span class="text-[10px] text-gray-500 italic">Disponível</span>
                 </div>
-                <!-- Adicione os outros links conforme você subir os áudios -->
-                <p class="text-[10px] text-center text-gray-500 mt-4 italic">Role para ver todos os 15 episódios no seu painel.</p>
+                <div class="flex justify-between items-center p-3 bg-white/5 rounded-lg border border-white/10">
+                    <span class="text-[11px] font-bold">EP04 - Afiliado Digital Elite</span>
+                    <span class="text-[10px] text-gray-500 italic">Disponível</span>
+                </div>
+                <div class="flex justify-between items-center p-3 bg-white/5 rounded-lg border border-white/10">
+                    <span class="text-[11px] font-bold">EP05 - Live Commerce</span>
+                    <span class="text-[10px] text-gray-500 italic">Disponível</span>
+                </div>
+                <div class="flex justify-between items-center p-3 bg-white/5 rounded-lg border border-white/10">
+                    <span class="text-[11px] font-bold">EP06 - Ferramentas de IA</span>
+                    <span class="text-[10px] text-gray-500 italic">Disponível</span>
+                </div>
+                <div class="flex justify-between items-center p-3 bg-white/5 rounded-lg border border-white/10">
+                    <span class="text-[11px] font-bold">EP07 - 6 Erros Fatais</span>
+                    <span class="text-[10px] text-gray-500 italic">Disponível</span>
+                </div>
+                <div class="flex justify-between items-center p-3 bg-white/5 rounded-lg border border-white/10">
+                    <span class="text-[11px] font-bold">EP08 - Shopee Afiliados</span>
+                    <span class="text-[10px] text-gray-500 italic">Disponível</span>
+                </div>
+                <div class="flex justify-between items-center p-3 bg-white/5 rounded-lg border border-white/10">
+                    <span class="text-[11px] font-bold">EP09 - Infoprodutos 2026</span>
+                    <span class="text-[10px] text-gray-500 italic">Disponível</span>
+                </div>
+                <div class="flex justify-between items-center p-3 bg-white/5 rounded-lg border border-white/10">
+                    <span class="text-[11px] font-bold">EP10 - Kwai Shop</span>
+                    <span class="text-[10px] text-gray-500 italic">Disponível</span>
+                </div>
+                <div class="flex justify-between items-center p-3 bg-white/5 rounded-lg border border-white/10">
+                    <span class="text-[11px] font-bold">EP11 - Print on Demand</span>
+                    <span class="text-[10px] text-gray-500 italic">Disponível</span>
+                </div>
+                <div class="flex justify-between items-center p-3 bg-white/5 rounded-lg border border-white/10">
+                    <span class="text-[11px] font-bold">EP12 - Tráfego Pago Mobile</span>
+                    <span class="text-[10px] text-gray-500 italic">Disponível</span>
+                </div>
+                <div class="flex justify-between items-center p-3 bg-white/5 rounded-lg border border-white/10">
+                    <span class="text-[11px] font-bold">EP13 - Social Commerce</span>
+                    <span class="text-[10px] text-gray-500 italic">Disponível</span>
+                </div>
+                <div class="flex justify-between items-center p-3 bg-white/5 rounded-lg border border-white/10">
+                    <span class="text-[11px] font-bold">EP14 - Escalar para R$ 10k</span>
+                    <span class="text-[10px] text-gray-500 italic">Disponível</span>
+                </div>
+                <div class="flex justify-between items-center p-3 bg-[#39ff14]/10 rounded-lg border border-[#39ff14]/30">
+                    <span class="text-[11px] font-bold text-[#39ff14]">EP15 - PLANO 90 DIAS (FINAL)</span>
+                    <span class="text-[10px] text-[#39ff14] font-bold">OUVIR AGORA</span>
+                </div>
             </div>
+            
+            <p class="text-[10px] text-center text-gray-500 mt-6 italic">Utilize o botão no topo para acessar todos os arquivos MP3 na pasta oficial.</p>
         </div>
 
-        <div class="purple-card mb-8">
-            <h2 class="text-xl font-bold mb-4 text-[#39ff14]">🎁 Bônus: Guia de 90 Dias</h2>
-            <p class="text-sm text-gray-300">O plano de ação detalhado para sair do zero e chegar aos R$ 10k/mês.</p>
-            <a href="LINK_DO_GUIA_PDF" class="inline-block mt-4 bg-[#39ff14] text-[#0f051a] font-black py-3 px-6 rounded-lg text-sm uppercase">Baixar Plano de 90 Dias</a>
+        <!-- Bônus -->
+        <div class="purple-card mb-12">
+            <h2 class="text-xl font-bold mb-4 text-[#39ff14]">🎁 Bônus Exclusivo</h2>
+            <p class="text-sm text-gray-300 leading-relaxed">Baixe o seu <strong>Checklist de 90 Dias</strong> e comece a aplicar o método HPCC TA hoje mesmo.</p>
+            <a href="https://drive.google.com/drive/folders/1f_jDU26FzddAlQuLzxlV-_Qg4hY3Wy10" target="_blank" class="inline-block mt-6 bg-white text-[#0f051a] font-black py-3 px-8 rounded-lg text-xs uppercase hover:bg-[#39ff14] transition-colors">
+                Baixar Material de Apoio
+            </a>
         </div>
 
-        <footer class="text-center py-8 border-t border-purple-900/30">
-            <p class="text-[10px] text-gray-600 uppercase tracking-widest">© 2026 Vendas Mobile Academy - Todos os direitos reservados</p>
+        <footer class="text-center py-10 border-t border-purple-900/30">
+            <p class="text-[10px] text-gray-600 uppercase tracking-[0.4em]">© 2026 Vendas Mobile Academy</p>
+            <p class="text-[9px] text-gray-700 mt-2">Acesso exclusivo para alunos matriculados.</p>
         </footer>
     </div>
 </body>
